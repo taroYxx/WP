@@ -95,8 +95,7 @@
     UIView *backView2 = [[UIView alloc] initWithFrame:CGRectMake(0, UISCREENHEIGHT*0.42, UISCREENWIDTH, UISCREENHEIGHT*0.2)];
     [backView2 setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:backView2];
-    
-    UILabel *const
+
 }
 
 - (void)didReceiveMemoryWarning {
