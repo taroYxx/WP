@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181868251BA404F800D760AB /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 181868131BA404F800D760AB /* AFHTTPRequestOperation.m */; };
+		181868261BA404F800D760AB /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181868151BA404F800D760AB /* AFHTTPRequestOperationManager.m */; };
+		181868271BA404F800D760AB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181868171BA404F800D760AB /* AFHTTPSessionManager.m */; };
+		181868281BA404F800D760AB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818681A1BA404F800D760AB /* AFNetworkReachabilityManager.m */; };
+		181868291BA404F800D760AB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818681C1BA404F800D760AB /* AFSecurityPolicy.m */; };
+		1818682A1BA404F800D760AB /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818681E1BA404F800D760AB /* AFURLConnectionOperation.m */; };
+		1818682B1BA404F800D760AB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 181868201BA404F800D760AB /* AFURLRequestSerialization.m */; };
+		1818682C1BA404F800D760AB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 181868221BA404F800D760AB /* AFURLResponseSerialization.m */; };
+		1818682D1BA404F800D760AB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181868241BA404F800D760AB /* AFURLSessionManager.m */; };
+		181868311BA40CE800D760AB /* WPRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181868301BA40CE800D760AB /* WPRegistViewController.m */; };
+		183787AA1BAD346900CEB4E3 /* restaurantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183787A81BAD346900CEB4E3 /* restaurantCell.m */; };
+		183787AB1BAD346900CEB4E3 /* restaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183787A91BAD346900CEB4E3 /* restaurantCell.xib */; };
+		183787AF1BAD38ED00CEB4E3 /* WPRestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183787AE1BAD38ED00CEB4E3 /* WPRestaurantDetailsViewController.m */; };
+		188C39CC1BAB13C90081BCA3 /* WPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C39CB1BAB13C90081BCA3 /* WPHomeViewController.m */; };
 		18A0E5B61BA2CBDA00945254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0E5B51BA2CBDA00945254 /* main.m */; };
 		18A0E5B91BA2CBDB00945254 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0E5B81BA2CBDB00945254 /* AppDelegate.m */; };
 		18A0E5C11BA2CBDB00945254 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A0E5C01BA2CBDB00945254 /* Images.xcassets */; };
-		18A0E5C41BA2CBDB00945254 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A0E5C21BA2CBDB00945254 /* LaunchScreen.xib */; };
 		18A0E5D01BA2CBDB00945254 /* WPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0E5CF1BA2CBDB00945254 /* WPTests.m */; };
 		18A0E5DC1BA2CC6B00945254 /* WPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0E5DB1BA2CC6B00945254 /* WPLoginViewController.m */; };
+		18C549FC1BA2E4CF00D9C392 /* AdDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C549F81BA2E4CF00D9C392 /* AdDataModel.m */; };
+		18C549FD1BA2E4CF00D9C392 /* AdDataPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C549F91BA2E4CF00D9C392 /* AdDataPlist.plist */; };
+		18C549FE1BA2E4CF00D9C392 /* AdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C549FB1BA2E4CF00D9C392 /* AdScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +42,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181868121BA404F800D760AB /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		181868131BA404F800D760AB /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		181868141BA404F800D760AB /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		181868151BA404F800D760AB /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		181868161BA404F800D760AB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		181868171BA404F800D760AB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		181868181BA404F800D760AB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		181868191BA404F800D760AB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1818681A1BA404F800D760AB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		1818681B1BA404F800D760AB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		1818681C1BA404F800D760AB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		1818681D1BA404F800D760AB /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		1818681E1BA404F800D760AB /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		1818681F1BA404F800D760AB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		181868201BA404F800D760AB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		181868211BA404F800D760AB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		181868221BA404F800D760AB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		181868231BA404F800D760AB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		181868241BA404F800D760AB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		1818682F1BA40CE800D760AB /* WPRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPRegistViewController.h; path = regist/WPRegistViewController.h; sourceTree = "<group>"; };
+		181868301BA40CE800D760AB /* WPRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPRegistViewController.m; path = regist/WPRegistViewController.m; sourceTree = "<group>"; };
+		183787A71BAD346900CEB4E3 /* restaurantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = restaurantCell.h; sourceTree = "<group>"; };
+		183787A81BAD346900CEB4E3 /* restaurantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = restaurantCell.m; sourceTree = "<group>"; };
+		183787A91BAD346900CEB4E3 /* restaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = restaurantCell.xib; sourceTree = "<group>"; };
+		183787AD1BAD38ED00CEB4E3 /* WPRestaurantDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPRestaurantDetailsViewController.h; sourceTree = "<group>"; };
+		183787AE1BAD38ED00CEB4E3 /* WPRestaurantDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPRestaurantDetailsViewController.m; sourceTree = "<group>"; };
+		188C39CA1BAB13C90081BCA3 /* WPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHomeViewController.h; sourceTree = "<group>"; };
+		188C39CB1BAB13C90081BCA3 /* WPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHomeViewController.m; sourceTree = "<group>"; };
 		18A0E5B01BA2CBDA00945254 /* WP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A0E5B41BA2CBDA00945254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A0E5B51BA2CBDA00945254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A0E5B71BA2CBDB00945254 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A0E5B81BA2CBDB00945254 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18A0E5C01BA2CBDB00945254 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		18A0E5C31BA2CBDB00945254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18A0E5C91BA2CBDB00945254 /* WPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A0E5CE1BA2CBDB00945254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A0E5CF1BA2CBDB00945254 /* WPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTests.m; sourceTree = "<group>"; };
 		18A0E5DA1BA2CC6B00945254 /* WPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPLoginViewController.h; sourceTree = "<group>"; };
 		18A0E5DB1BA2CC6B00945254 /* WPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPLoginViewController.m; sourceTree = "<group>"; };
+		18C549F71BA2E4CF00D9C392 /* AdDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdDataModel.h; sourceTree = "<group>"; };
+		18C549F81BA2E4CF00D9C392 /* AdDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdDataModel.m; sourceTree = "<group>"; };
+		18C549F91BA2E4CF00D9C392 /* AdDataPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdDataPlist.plist; sourceTree = "<group>"; };
+		18C549FA1BA2E4CF00D9C392 /* AdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdScrollView.h; sourceTree = "<group>"; };
+		18C549FB1BA2E4CF00D9C392 /* AdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +106,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181868111BA404F800D760AB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				181868121BA404F800D760AB /* AFHTTPRequestOperation.h */,
+				181868131BA404F800D760AB /* AFHTTPRequestOperation.m */,
+				181868141BA404F800D760AB /* AFHTTPRequestOperationManager.h */,
+				181868151BA404F800D760AB /* AFHTTPRequestOperationManager.m */,
+				181868161BA404F800D760AB /* AFHTTPSessionManager.h */,
+				181868171BA404F800D760AB /* AFHTTPSessionManager.m */,
+				181868181BA404F800D760AB /* AFNetworking.h */,
+				181868191BA404F800D760AB /* AFNetworkReachabilityManager.h */,
+				1818681A1BA404F800D760AB /* AFNetworkReachabilityManager.m */,
+				1818681B1BA404F800D760AB /* AFSecurityPolicy.h */,
+				1818681C1BA404F800D760AB /* AFSecurityPolicy.m */,
+				1818681D1BA404F800D760AB /* AFURLConnectionOperation.h */,
+				1818681E1BA404F800D760AB /* AFURLConnectionOperation.m */,
+				1818681F1BA404F800D760AB /* AFURLRequestSerialization.h */,
+				181868201BA404F800D760AB /* AFURLRequestSerialization.m */,
+				181868211BA404F800D760AB /* AFURLResponseSerialization.h */,
+				181868221BA404F800D760AB /* AFURLResponseSerialization.m */,
+				181868231BA404F800D760AB /* AFURLSessionManager.h */,
+				181868241BA404F800D760AB /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		1818682E1BA40CA800D760AB /* Regist */ = {
+			isa = PBXGroup;
+			children = (
+				1818682F1BA40CE800D760AB /* WPRegistViewController.h */,
+				181868301BA40CE800D760AB /* WPRegistViewController.m */,
+			);
+			name = Regist;
+			sourceTree = "<group>";
+		};
+		183787AC1BAD389900CEB4E3 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				183787AD1BAD38ED00CEB4E3 /* WPRestaurantDetailsViewController.h */,
+				183787AE1BAD38ED00CEB4E3 /* WPRestaurantDetailsViewController.m */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		188C39C61BAB13AC0081BCA3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				188C39CA1BAB13C90081BCA3 /* WPHomeViewController.h */,
+				188C39CB1BAB13C90081BCA3 /* WPHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		18A0E5A71BA2CBDA00945254 = {
 			isa = PBXGroup;
 			children = (
+				181868111BA404F800D760AB /* AFNetworking */,
+				18C549F71BA2E4CF00D9C392 /* AdDataModel.h */,
+				18C549F81BA2E4CF00D9C392 /* AdDataModel.m */,
+				18C549F91BA2E4CF00D9C392 /* AdDataPlist.plist */,
+				18C549FA1BA2E4CF00D9C392 /* AdScrollView.h */,
+				18C549FB1BA2E4CF00D9C392 /* AdScrollView.m */,
 				18A0E5B21BA2CBDA00945254 /* WP */,
 				18A0E5CC1BA2CBDB00945254 /* WPTests */,
 				18A0E5B11BA2CBDA00945254 /* Products */,
@@ -79,11 +186,16 @@
 		18A0E5B21BA2CBDA00945254 /* WP */ = {
 			isa = PBXGroup;
 			children = (
+				183787A71BAD346900CEB4E3 /* restaurantCell.h */,
+				183787A81BAD346900CEB4E3 /* restaurantCell.m */,
+				183787A91BAD346900CEB4E3 /* restaurantCell.xib */,
+				18A0E5D91BA2CC5C00945254 /* login */,
+				1818682E1BA40CA800D760AB /* Regist */,
+				188C39C61BAB13AC0081BCA3 /* Home */,
+				183787AC1BAD389900CEB4E3 /* Details */,
 				18A0E5B71BA2CBDB00945254 /* AppDelegate.h */,
 				18A0E5B81BA2CBDB00945254 /* AppDelegate.m */,
-				18A0E5D91BA2CC5C00945254 /* login */,
 				18A0E5C01BA2CBDB00945254 /* Images.xcassets */,
-				18A0E5C21BA2CBDB00945254 /* LaunchScreen.xib */,
 				18A0E5B31BA2CBDA00945254 /* Supporting Files */,
 			);
 			path = WP;
@@ -168,6 +280,7 @@
 		18A0E5A81BA2CBDA00945254 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WP;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "诸葛蚂蚱";
 				TargetAttributes = {
@@ -204,8 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A0E5C41BA2CBDB00945254 /* LaunchScreen.xib in Resources */,
 				18A0E5C11BA2CBDB00945254 /* Images.xcassets in Resources */,
+				18C549FD1BA2E4CF00D9C392 /* AdDataPlist.plist in Resources */,
+				183787AB1BAD346900CEB4E3 /* restaurantCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +337,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188C39CC1BAB13C90081BCA3 /* WPHomeViewController.m in Sources */,
+				181868311BA40CE800D760AB /* WPRegistViewController.m in Sources */,
+				1818682D1BA404F800D760AB /* AFURLSessionManager.m in Sources */,
+				18C549FE1BA2E4CF00D9C392 /* AdScrollView.m in Sources */,
+				181868281BA404F800D760AB /* AFNetworkReachabilityManager.m in Sources */,
+				18C549FC1BA2E4CF00D9C392 /* AdDataModel.m in Sources */,
+				1818682A1BA404F800D760AB /* AFURLConnectionOperation.m in Sources */,
+				183787AF1BAD38ED00CEB4E3 /* WPRestaurantDetailsViewController.m in Sources */,
+				181868271BA404F800D760AB /* AFHTTPSessionManager.m in Sources */,
+				1818682B1BA404F800D760AB /* AFURLRequestSerialization.m in Sources */,
+				183787AA1BAD346900CEB4E3 /* restaurantCell.m in Sources */,
 				18A0E5DC1BA2CC6B00945254 /* WPLoginViewController.m in Sources */,
 				18A0E5B91BA2CBDB00945254 /* AppDelegate.m in Sources */,
 				18A0E5B61BA2CBDA00945254 /* main.m in Sources */,
+				181868261BA404F800D760AB /* AFHTTPRequestOperationManager.m in Sources */,
+				181868291BA404F800D760AB /* AFSecurityPolicy.m in Sources */,
+				1818682C1BA404F800D760AB /* AFURLResponseSerialization.m in Sources */,
+				181868251BA404F800D760AB /* AFHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,17 +375,6 @@
 			targetProxy = 18A0E5CA1BA2CBDB00945254 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		18A0E5C21BA2CBDB00945254 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18A0E5C31BA2CBDB00945254 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18A0E5D11BA2CBDB00945254 /* Debug */ = {
@@ -343,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -354,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -414,6 +534,7 @@
 				18A0E5D51BA2CBDB00945254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A0E5D61BA2CBDB00945254 /* Build configuration list for PBXNativeTarget "WPTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +543,7 @@
 				18A0E5D81BA2CBDB00945254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

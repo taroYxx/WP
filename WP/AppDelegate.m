@@ -19,12 +19,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window = window;
-    [self.window makeKeyAndVisible];
     
     WPLoginViewController *login = [[WPLoginViewController alloc] init];
     window.rootViewController = login;
     
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:login];
+    [self.window setRootViewController:nav];
     
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
