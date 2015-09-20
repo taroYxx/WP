@@ -92,9 +92,38 @@
     [evaluateBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
     [self.view addSubview:evaluateBtn];
     
-    UIView *backView2 = [[UIView alloc] initWithFrame:CGRectMake(0, UISCREENHEIGHT*0.42, UISCREENWIDTH, UISCREENHEIGHT*0.2)];
-    [backView2 setBackgroundColor:[UIColor whiteColor]];
-    [self.view addSubview:backView2];
+    UIView *telAndAddView = [[UIView alloc] initWithFrame:CGRectMake(0, UISCREENHEIGHT*0.42, UISCREENWIDTH, UISCREENHEIGHT*0.15)];
+    [telAndAddView setBackgroundColor:[UIColor whiteColor]];
+    [self.view addSubview:telAndAddView];
+    
+    UILabel *telLab = [[UILabel alloc] initWithFrame:CGRectMake(8, 8, 51, 21)];
+    [telLab setText:@"电话:"];
+    [telLab setTextColor:[UIColor darkGrayColor]];
+    telLab.font = [UIFont boldSystemFontOfSize:15];
+    [telAndAddView addSubview:telLab];
+    
+    UILabel *telNumLab = [[UILabel alloc] initWithFrame:CGRectMake(62, 8, 130, 21)];
+    [telNumLab setText:@"0000-00000000"];
+    [telNumLab setTextColor:[UIColor darkGrayColor]];
+    telNumLab.font = [UIFont boldSystemFontOfSize:15];
+    [telAndAddView addSubview:telNumLab];
+    
+    UILabel *addLab = [[UILabel alloc] initWithFrame:CGRectMake(8, 32, 51, 21)];
+    [addLab setText:@"地址:"];
+    [addLab setTextColor:[UIColor darkGrayColor]];
+    addLab.font = [UIFont boldSystemFontOfSize:15];
+    [telAndAddView addSubview:addLab];
+    
+    UILabel *addressLab = [[UILabel alloc] initWithFrame:CGRectMake(62, 32, 250, 50)];
+    [addressLab setText:@"杭州市上城区延安南路西湖广场98号银泰广场3楼（近吴山广场）"];
+    [addressLab setTextColor:[UIColor darkGrayColor]];
+    addressLab.numberOfLines = 2;
+    addressLab.font = [UIFont boldSystemFontOfSize:15];
+    [telAndAddView addSubview:addressLab];
+    
+    UIView *evaluateView = [[UIView alloc] initWithFrame:CGRectMake(0, UISCREENHEIGHT*0.575, UISCREENWIDTH, UISCREENHEIGHT*0.2)];
+    [evaluateView setBackgroundColor:[UIColor whiteColor]];
+    [self.view addSubview:evaluateView];
 
 }
 
