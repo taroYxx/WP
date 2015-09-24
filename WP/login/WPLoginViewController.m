@@ -25,7 +25,7 @@
     
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    NSLog(@"sa");
+    NSLog(@"sasas");
     
     UIImageView *bgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loginViewBackground"]];
     bgView.frame = CGRectMake(0, 0, UISCREENWIDTH, UISCREENHEIGHT);
