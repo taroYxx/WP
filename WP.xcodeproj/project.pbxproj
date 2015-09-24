@@ -29,6 +29,7 @@
 		18C549FC1BA2E4CF00D9C392 /* AdDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C549F81BA2E4CF00D9C392 /* AdDataModel.m */; };
 		18C549FD1BA2E4CF00D9C392 /* AdDataPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C549F91BA2E4CF00D9C392 /* AdDataPlist.plist */; };
 		18C549FE1BA2E4CF00D9C392 /* AdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C549FB1BA2E4CF00D9C392 /* AdScrollView.m */; };
+		509CC2761BAEAA6D00CACBA4 /* WPMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509CC2751BAEAA6D00CACBA4 /* WPMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		18C549F91BA2E4CF00D9C392 /* AdDataPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdDataPlist.plist; sourceTree = "<group>"; };
 		18C549FA1BA2E4CF00D9C392 /* AdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdScrollView.h; sourceTree = "<group>"; };
 		18C549FB1BA2E4CF00D9C392 /* AdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdScrollView.m; sourceTree = "<group>"; };
+		509CC2741BAEAA6D00CACBA4 /* WPMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPMapViewController.h; sourceTree = "<group>"; };
+		509CC2751BAEAA6D00CACBA4 /* WPMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPMapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,7 @@
 		18A0E5B21BA2CBDA00945254 /* WP */ = {
 			isa = PBXGroup;
 			children = (
+				509CC2731BAEAA3300CACBA4 /* Map */,
 				183787A71BAD346900CEB4E3 /* restaurantCell.h */,
 				183787A81BAD346900CEB4E3 /* restaurantCell.m */,
 				183787A91BAD346900CEB4E3 /* restaurantCell.xib */,
@@ -234,6 +238,15 @@
 				18A0E5DB1BA2CC6B00945254 /* WPLoginViewController.m */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		509CC2731BAEAA3300CACBA4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				509CC2741BAEAA6D00CACBA4 /* WPMapViewController.h */,
+				509CC2751BAEAA6D00CACBA4 /* WPMapViewController.m */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +362,7 @@
 				1818682B1BA404F800D760AB /* AFURLRequestSerialization.m in Sources */,
 				183787AA1BAD346900CEB4E3 /* restaurantCell.m in Sources */,
 				18A0E5DC1BA2CC6B00945254 /* WPLoginViewController.m in Sources */,
+				509CC2761BAEAA6D00CACBA4 /* WPMapViewController.m in Sources */,
 				18A0E5B91BA2CBDB00945254 /* AppDelegate.m in Sources */,
 				18A0E5B61BA2CBDA00945254 /* main.m in Sources */,
 				181868261BA404F800D760AB /* AFHTTPRequestOperationManager.m in Sources */,
